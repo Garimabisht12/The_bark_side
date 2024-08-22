@@ -1,0 +1,27 @@
+
+.thanks{
+
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5.5em;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1534361960057-19889db9621e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nfGVufDB8fDB8fHww');
+    background-size: 100vw 120vh;
+}
+
+.thanks h1{
+    font-size: 3.8em;
+    color: #ebf677;
+    font-weight: bold;
+}
+
+
+
+.thanks a {
+    text-decoration: none;
+    color:#ebf677
+    
+}
