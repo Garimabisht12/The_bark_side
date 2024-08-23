@@ -26,7 +26,7 @@ app.post('/', async(req,res)=>{
         const newSuggestion = new Suggestion({ name, email, suggestion });
         await newSuggestion.save();
         // res.send('Thank you for your suggestion!');
-        res.sendFile(__dirname + '/views/ThankYou.html')
+        res.sendFile(__dirname + '/ThankYou.html')
       } catch (err) {
         console.error(err);
         res.status(500).send('Error submitting suggestion');
